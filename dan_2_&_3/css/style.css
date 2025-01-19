@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #bbb;
+}
+
+.navbar-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header svg {
+    width: 30px;
+}
+
+.hero {
+    background-image: url("../images/pexels-photo-3945673.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-content {
+    height: 70vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.hero-content h1 {
+    width: 45%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.hero-content p {
+    width: 45%;
+    text-align: center;
+    color: #bbb;
+    font-size: 1.5rem;
+}
+
+.our-story {
+    padding: 4rem 0;
+}
+
+.our-story-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5rem;
+}
+
+.our-story-content h2 {
+    font-size: 2.5rem;
+}
+
+.our-story-content p {
+    text-align: center;
+    color: #999;
+    font-size: 1.5rem;
+}
+
+.our-story-content-final {
+    display: flex;
+}
+
+.our-story-content-final-mission,
+.our-story-content-final-vision {
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.our-story-content-final-vision {
+    background-color: #f2f2f2;
+}
+
+.our-story-content-final-mission h3,
+.our-story-content-final-vision h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.online-games {
+    padding: 4rem 0;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.online-games-content {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.online-games-content-copy {
+    box-sizing: border-box;
+    padding: 0 2.5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+}
+
+.online-games-content-copy h3 {
+    color: #7f93d0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.online-games-content-copy p {
+    font-size: 1.35rem;
+}
+
+.online-games-content-image,
+.online-games-content-copy
+{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.online-games-content-image img {
+    width: 450px;
+}
+
+.online-games a {
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #7f93d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.online-games a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.innovation {
+    background-image: url("../images/pexels-photo-3945673.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.innovation-container {
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.innovation-in-the-industry {
+    padding: 2rem;
+    width: 40%;
+    background-image: url("../images/pexels-photo-3593983.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.innovation-in-the-industry p {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.innovation-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.innovation-navigation a {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: #2c5bcc;
+    /* overflow-y: hidden; */
+}
+
+.sign-up-container {
+    padding: 4rem 0 8rem 0;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-fresh-loot {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    width: 35%;
+}
+
+.sign-up-claim-loot {
+    position: relative;
+    top: 100px;
+    height: fit-content;
+    width: 35%;
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: right;
+}
+
+.game-gadgets {
+    background-color: #fff;
+}
+
+.game-gadgets-container {
+    padding: 4rem 0;
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-gadgets-discover {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+
+.game-gadgets-discover p:first-of-type {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.game-gadgets-discover-box-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-gadgets-discover-box-section-unit {
+    padding: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-gadgets-discover-box-section-unit:nth-of-type(2) {
+    background-color: #e5e5e5;
+}
+
+.game-gadgets-image {
+    width: 45%;
+    background-image: url("../images/pexels-photo-3945673.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.gallery {
+    display: flex;
+    height: 45vh;
+}
+
+.gallery-element-1,
+.gallery-element-2,
+.gallery-element-3,
+.gallery-element-4 {
+    position: relative;
+    width: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery-element-1 {
+    background-image: url("../images/pexels-photo-4009626.jpeg");
+}
+
+.gallery-element-2 {
+    background-image: url("../images/pexels-photo-4009589.jpeg");
+}
+
+.gallery-element-3 {
+    background-image: url("../images/pexels-photo-2007647.jpeg");
+}
+
+.gallery-element-4 {
+    background-image: url("../images/pexels-photo-4009599.jpeg");
+}
+
+.filter {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease;
+}
+
+.filter:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.download-games {
+    background-image: url("../images/pexels-photo-3593983.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.download-games-container {
+    padding: 6rem 0;
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.download-games-container h2 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+footer {
+    padding: 3rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.footer-content p:first-of-type {
+    text-align: center;
+}

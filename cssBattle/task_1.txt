@@ -1,0 +1,51 @@
+https://cssbattle.dev/play/TRefBi9dFm6BDe2shLZM
+#Resenje
+
+<div class="first-row"></div>
+<div class="center-container">
+  <div class="center"></div>
+</div>
+<div class="last-row-container">
+  <div class="last-row"></div>
+</div>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background-color: #328fc1;
+  }
+  
+  .first-row {
+    width: 70px;
+    height: 70px;
+    background: #fade8b;
+    border-bottom-right-radius: 120px;
+  }
+
+  .center-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .center {
+    width: 140px;
+    height: 140px;
+    background-color: #fade8b;
+  }
+
+  .last-row-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .last-row {
+    width: 70px;
+    height: 70px;
+    background-color: fade8b;
+    border-top-left-radius: 120px;
+  }
+</style>

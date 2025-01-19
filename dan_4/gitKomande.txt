@@ -1,0 +1,35 @@
+- Provera trenutno setovanog usera
+git config user.name 
+
+-Provera trenutno setovanog emaila
+git config user.email
+
+-Setovanje usera
+git config --global user.name "mojUser"
+
+-Setovanje emaila
+git config --global user.email "mojMail"
+
+-Kloniranje projekta sa GitHuba
+git clone "projectURL"
+
+-Inicijalizuje projekat
+git init
+
+-Provera statusa
+git status
+
+-Dodavanje fajlova na stage
+git add .
+
+-Dodavanje pojedinacnog fajla na stage
+git add "imeFajla.ekstenzija"
+
+-Komitovanje
+git commit -m "poruka"
+
+-Pushovanje na repo
+gut push
+
+-Povlacenje novih cvorova
+git pull (fetch & merge)

@@ -1,0 +1,1 @@
+https://nicepage.com/templates/preview/modern-gadgets-366151?device=desktop

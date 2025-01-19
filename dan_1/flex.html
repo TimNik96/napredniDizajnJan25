@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex-parent {
+            height: 50vh;
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 2rem;
+        }
+
+        .flex-parent-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 2rem;
+        }
+
+        .flex-child-row {
+            height: fit-content;
+            background-color: black;
+            color: #fff;
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-parent">
+        <div class="flex-parent-row">
+            <p class="flex-child-row">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum eligendi a optio itaque repellendus. Soluta error ipsum molestiae a officia totam architecto, eligendi debitis eveniet aliquid ab dolor pariatur!
+            </p>
+            <p class="flex-child-row">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum eligendi a optio itaque repellendus. Soluta error ipsum molestiae a officia totam architecto, eligendi debitis eveniet aliquid ab dolor pariatur! Pozdrav!
+            </p>
+        </div>
+        <div class="flex-parent-row">
+            <p class="flex-child-row">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum eligendi a optio itaque repellendus. Soluta error ipsum molestiae a officia totam architecto, eligendi debitis eveniet aliquid ab dolor pariatur!
+            </p>
+            <p class="flex-child-row">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rerum eligendi a optio itaque repellendus. Soluta error ipsum molestiae a officia totam architecto, eligendi debitis eveniet aliquid ab dolor pariatur! Pozdrav!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
