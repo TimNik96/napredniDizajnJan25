@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "clean_it heart dog_pic_1"
+          "gear dog_pic_2 globe";
+      }
+
+      .clean_it {
+        background-color: yellow;
+        grid-area: clean_it;
+      }
+
+      .heart {
+        background-color: burlywood;
+        grid-area: heart;
+      }
+
+      .dog_pic_1 {
+        background-color: blue;
+        grid-area: dog_pic_1;
+      }
+
+      .gear {
+        background-color: blueviolet;
+        grid-area: gear;
+      }
+
+      .dog_pic_2 {
+        background-color: black;
+        grid-area: dog_pic_2;
+      }
+
+      .globe {
+        background-color: brown;
+        grid-area: globe;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="clean_it"></div>
+      <div class="heart"></div>
+      <div class="dog_pic_1"></div>
+      <div class="gear"></div>
+      <div class="dog_pic_2"></div>
+      <div class="globe"></div>
+    </div>
+  </body>
+</html>
