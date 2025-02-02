@@ -1,3 +1,18 @@
 https://cssbattle.dev/play/u9v0G8SKtJFl8BT8msRT
 
 #Resenje
+<div class="box"></div>
+<style>
+  body {
+    background-color: #EBE77E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    clip-path: polygon(0% 50%, 27% 0, 100% 0, 73% 50%, 100% 100%, 27% 100%);
+    background: #DE817E;
+    width: 220px;
+    height: 140px;
+  }
+</style>
