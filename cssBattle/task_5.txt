@@ -1,0 +1,39 @@
+https://cssbattle.dev/play/D7O5HDOWeJkClyDTqb0i
+
+#Resenje
+<div class="red-circle">
+  <div class="yellow-circle">
+    <div class="red-ramp"></div>
+  </div>
+</div>
+<style>
+  body {
+    background-color: #EDECC1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .red-circle {
+    width: 250px;
+    height: 250px;
+    background: #CC5252;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .yellow-circle {
+    background-color: #EDECC1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .red-ramp {
+    background-color: #CC5252;
+    width: 150px;
+    height: 50px;
+    transform: rotate(-30deg)
+  }
+</style>
