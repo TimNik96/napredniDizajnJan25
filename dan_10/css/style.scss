@@ -1,0 +1,30 @@
+$primary-border: #888;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 70vh;
+    background-image: url("../images/Nikola\ Timotic\ -\ banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &-filter {
+        background-color: rgba($color: #000000, $alpha: 0.6);
+    }
+}
+
+.maecenas {
+    &-picture img {
+        border-radius: 50%;
+        border: 1px solid $primary-border;
+        padding: .3rem;
+    }
+
+    &-content .btn {
+        width: fit-content;
+    }
+}

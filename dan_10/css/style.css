@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  height: 70vh;
+  background-image: url("../images/Nikola Timotic - banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-filter {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.maecenas-picture img {
+  border-radius: 50%;
+  border: 1px solid #888;
+  padding: 0.3rem;
+}
+.maecenas-content .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+}/*# sourceMappingURL=style.css.map */
