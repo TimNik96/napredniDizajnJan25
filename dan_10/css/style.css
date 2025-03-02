@@ -14,12 +14,26 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.maecenas-picture img {
+.maecenas-picture img,
+.susspendise-picture img {
   border-radius: 50%;
-  border: 1px solid #888;
   padding: 0.3rem;
 }
-.maecenas-content .btn {
+.maecenas-content .btn,
+.susspendise-content .btn {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.aliquam img {
+  border-radius: 50%;
+  padding: 0.3rem;
+  width: 270px;
+}
+
+.social-media-item {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 10px solid #888;
 }/*# sourceMappingURL=style.css.map */
