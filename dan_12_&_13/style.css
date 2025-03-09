@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu {
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  transform: translateX(-100%);
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+.side-menu-controls span {
+  cursor: pointer;
+}
+.side-menu-navigation {
+  list-style-type: none;
+  list-style-position: inside;
+}
+.side-menu-navigation li {
+  font-size: 1.3rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.side-menu-navigation li:hover {
+  color: rgb(50, 50, 50);
+  cursor: pointer;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("pictures/pexels-ben-neale-380330.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-filter {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hero-burger {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.hero-burger path {
+  transition: all 0.3s ease;
+}
+.hero-burger:hover path {
+  fill: rgb(50, 50, 50);
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-content h1 {
+  font-size: 7rem;
+}
+
+.distance-learning h2 {
+  font-size: 3.5rem;
+}
+.distance-learning-articles-item:nth-child(2) {
+  background-color: #2dbef2;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
